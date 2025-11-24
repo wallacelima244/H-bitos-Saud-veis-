@@ -154,3 +154,12 @@ function gerarPDF() {
     // Salvar PDF
     doc.save("Guia_Premium_Vida_Saudavel.pdf");
 }
+/* ===========================
+   DESATIVAR SPA NO MOBILE
+=========================== */
+if (window.innerWidth <= 768) {
+  const sections = document.querySelectorAll(".section");
+  sections.forEach(sec => {
+    sec.classList.add("active");
+  });
+}
