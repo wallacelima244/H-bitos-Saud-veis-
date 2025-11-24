@@ -154,10 +154,10 @@ function gerarPDF() {
     // Salvar PDF
     doc.save("Guia_Premium_Vida_Saudavel.pdf");
 }
-// Se a largura da tela for <= 768px, ativa todas as seções
+
+// Mobile: mostrar todas as seções rolando
 if (window.innerWidth <= 768) {
   document.querySelectorAll('.section').forEach(sec => {
     sec.classList.add('active');
   });
 }
-
