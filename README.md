@@ -72,7 +72,5 @@ Player incorporado de forma responsiva.
 | **jsPDF** | Geração e manipulação de PDF |
 | **Google Fonts – Poppins** | Tipografia moderna |
 
----
 
-## 📁 Arquitetura do Projeto
 
